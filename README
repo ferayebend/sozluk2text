@@ -10,7 +10,10 @@ sozluk2tex.py:
 sozluk2text.py outputunu alarak, latex friendly bir formata cevirmekte. latex'e basmak icin header ve footer dosyalari gerekli daha yuklenmedi.
 
 dependencies:
-lynx, grep
+python
+python-urllib, python-urllib2
+lynx
+grep
 
 bilinen arizalar:
 * sozulugun konulu videolar eklentisi sikinti yaratiyor.
