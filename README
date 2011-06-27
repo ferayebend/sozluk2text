@@ -1,0 +1,17 @@
+sozluk2text
+
+eksisozluk icerigini ozgurlestirme aparati.
+
+v 0.1 
+sozluk2text.py:
+baslik crawl etme ozelligine sahip.
+
+sozluk2tex.py:
+sozluk2text.py outputunu alarak, latex friendly bir formata cevirmekte. latex'e basmak icin header ve footer dosyalari gerekli daha yuklenmedi.
+
+dependencies:
+lynx, grep
+
+bilinen arizalar:
+* sozulugun konulu videolar eklentisi sikinti yaratiyor.
+* script sayfalari once html'ye oradna ascii'ye atiyor, bu da performans sikintisi yaratiyor. html dogrudan ascii'ye atilmali. 
