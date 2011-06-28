@@ -1,5 +1,5 @@
 #!/usr/bin/python
-from deasciifier import Deasciifier
+#from deasciifier import Deasciifier
 import sys
 import os
 
