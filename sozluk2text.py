@@ -57,3 +57,10 @@ if __name__=='__main__':
         f.write(data);
 	html2text(filename,urllib.unquote(topic),topic_cl);
         f.close();
+
+  print '   konululari filtreliyor   '
+  os.popen('head -21 %s_tot.txt > filter'%(topic_cl))
+  os.popen('grep -v -f filter %s_tot.txt > %s.txt'%(topic_cl, topic_cl))
+  os.popen('rm filter %s_tot.txt'%(topic_cl))
+  print '   bitdi. hayrini gor!'
+
