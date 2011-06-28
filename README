@@ -17,4 +17,8 @@ grep
 
 bilinen arizalar:
 * sozulugun konulu videolar eklentisi sikinti yaratiyor.
+  28/06/11 grep becerisi ile bir kismi filtrelendi. ilk sayfadan sonra gelen fazladan (iki) video isimleri hala duruyor.
 * script sayfalari once html'ye oradna ascii'ye atiyor, bu da performans sikintisi yaratiyor. html dogrudan ascii'ye atilmali. 
+
+sozluk2tex.py:
+deasciifier modulu, script ile beraber calistirilamadi
